@@ -1,0 +1,215 @@
+body {
+  font-family: 'Lato',sans-serif;
+}
+* {
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+}
+.nav ul {
+  text-align: center;
+}
+.nav li {
+  display:inline-block;
+  font-family:sans-serif,serif;
+  color:#464646;
+}
+#icon {
+  margin-left: 880px;
+  margin-top: 5px;
+  padding-top:1px;
+}
+#art {
+  font-size: 15px;
+  padding-top:1px;
+  font-weight:500;
+
+}
+#search {
+  font-size: 10px;
+  margin-right:120px;
+  padding-top:1px;
+}
+#headshot {
+  border-radius: 50%;
+  width: 75px;
+  height:75px;
+}
+h3 {
+  font-size:16px;
+  margin:3%;
+  padding-bottom: 0px;
+  font-weight:lighter;
+}
+h1 {
+  padding-top: 0;
+  font-size: 60px;
+  font-family: 'Lora',sans-serif;
+  letter-spacing: -1px;
+  line-height: 60px;
+}
+h2 {
+  padding-top: 13px;
+  font-size: 20px;
+  font-family: 'Lato';
+  color: #5f5f5f;
+}
+#line {
+  margin: 3%;
+  /*to place line in center like the image*/
+  margin-right: 50%;
+  margin-left: 46%;
+  width: 80px;
+  border:solid 1px;
+  color:#c79852;
+}
+p {
+  text-align: left;
+  padding: 0 270px;
+  margin: 3% 0;
+  line-height: 30px;
+  color:#565656;
+}
+#chair1 {
+  border-bottom: 0px;
+}
+#Italics {
+  font-family: 'Petit Formal Script', cursive;
+  /*to make text bolder*/
+  font-weight:700;
+  line-height:36px;
+  font-size: 26px;
+  text-align: center;
+  /*centers paragragh italics"*/
+  margin: 0 50px;
+}
+.chairs {
+  width: 60%;
+  display: inline-block;
+}
+#chair3 {
+  margin-top:-55.3%;
+  margin-left: 4px;
+  width: 400px;
+  height: 206px;
+  float:right;
+  margin-right:-9.5%;
+  margin-bottom: 0;
+  position:relative;
+
+}
+#chair4 {
+  padding-top: 1.8%;
+  margin-top:-29%;
+  margin-left: 4px;
+  width: 400px;
+  height: 205px;
+  float:right;
+  margin-right:-9.5%;
+  margin-bottom: 0;
+  position:relative;
+}
+#chair2 {
+  margin-right:130%;
+  margin-left: 5px;
+}
+#heart, li {
+  display:inline-block;
+  text-decoration: none;
+  padding-right: 2px;
+  color:#565656;
+  text-align: center;
+}
+#line2 {
+  margin: 3%;
+  /*to place line in center like the image*/
+  margin-right: 55%;
+  margin-left: 48%;
+  width: 90px;
+  border:solid 1px;
+  color:#c79852;
+}
+.Box textarea {
+  font-size: 14px;
+  color:#565656;
+  box-shadow: inset;
+  width: 750px;
+  height:100px;
+  text-align: center;
+  border-radius: 4px;
+  border-color:#e5e5e5;
+  margin-bottom: 0px;
+}
+.button {
+  padding-bottom: 50px;
+  color: #565656;
+}
+#bookmark {
+  margin-right:0px;
+  display:inline-block;
+  border-color: none;
+  border:none;
+  background-color: white;
+  font-size: 13px;
+}
+#share {
+  margin-right:0px;
+  display:inline-block;
+  border:none;
+  background-color: white;
+  font-size: 13px;
+}
+#more {
+  padding:0px;
+  display:inline-block;
+  margin-right: 490px;
+  border:none;
+  background-color: white;
+  font-size: 13px;
+}
+#post {
+  padding-right: 10px;
+  border:none;
+  background-color: white;
+  font-size: 13px;
+}
+#right {
+  
+  margin-right: 50px;
+}
+#left {
+
+  margin-left: 50px;
+}
+/*starting over .footer {
+  background-color:#F8F9FD;
+  height: 200px;
+
+}
+.fa-arrow-left {
+  margin-top: 50px;
+  border-style:none;
+  background-color: #F8F9FD;
+  text-decoration: none;
+  color: #565656;
+  text-align: left;
+  position:absolute;
+}*/
+/*text decoration has to be with specific element*/
+/*.fa-arrow-right {
+  margin-top: 50px;
+  background-color: #F8F9FD;
+  border-style: none;
+  text-decoration: none;
+  color: #565656;
+  display:inline;
+  text-align:right;
+  position: relative;
+
+}
+a {
+  display: inline-block;
+}
+.footer p{
+  font-weight:normal;
+}
+*/
