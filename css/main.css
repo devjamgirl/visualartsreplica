@@ -4,6 +4,8 @@ body {
 * {
   font-family: 'Lato',sans-serif;
   text-align: center;
+  margin:0;
+  padding:0;
 }
 .nav ul {
   text-align: center;
@@ -19,10 +21,10 @@ body {
   padding-top:1px;
 }
 #art {
-  font-size: 15px;
-  padding-top:1px;
-  font-weight:500;
-
+  font-size: 16px;
+  padding-top: 1px;
+  font-weight: 500;
+    color: #464646;
 }
 #search {
   font-size: 10px;
@@ -139,46 +141,26 @@ p {
   border-color:#e5e5e5;
   margin-bottom: 0px;
 }
-.button {
-  padding-bottom: 50px;
-  color: #565656;
+.button-group button {
+    border: none;
+    background: white;
+    color: #565656;
+    font-size: 12px;
+    padding: 0 5px 0 0;
 }
-#bookmark {
-  margin-right:0px;
-  display:inline-block;
-  border-color: none;
-  border:none;
-  background-color: white;
-  font-size: 13px;
-}
-#share {
-  margin-right:0px;
-  display:inline-block;
-  border:none;
-  background-color: white;
-  font-size: 13px;
-}
-#more {
-  padding:0px;
-  display:inline-block;
-  margin-right: 490px;
-  border:none;
-  background-color: white;
-  font-size: 13px;
-}
-#post {
-  padding-right: 10px;
-  border:none;
-  background-color: white;
-  font-size: 13px;
+.button-group button:last-child {
+    float: right;
+    padding: 0;
 }
 #right {
-  
+
   margin-right: 50px;
 }
 #left {
-
   margin-left: 50px;
+}
+.yeah {
+  padding-bottom: 20px;
 }
 /*starting over .footer {
   background-color:#F8F9FD;
