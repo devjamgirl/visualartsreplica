@@ -73,6 +73,7 @@ p {
 }
 #chair1 {
   border-bottom: 0px;
+
 }
 #Italics {
   font-family: 'Petit Formal Script', cursive;
@@ -147,13 +148,16 @@ p {
     color: #565656;
     font-size: 12px;
     padding: 0 5px 0 0;
+    float:left;
+    display:inline;
+}
+#bookmark {
+ margin-left: 270px;
 }
 .button-group button:last-child {
-    float: right;
     padding: 0;
 }
 #right {
-
   margin-right: 50px;
 }
 #left {
@@ -162,6 +166,22 @@ p {
 .yeah {
   padding-bottom: 20px;
 }
+footer {
+  background-color:#F8F9FD;
+  width: 100%;
+  height: 200px;
+  margin-top: 80px;
+}
+#post {
+  display:inline;
+  float:left;
+  margin-left: 500px;
+}
+.fa-arrow-right, .fa-arrow-left {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
 /*starting over .footer {
   background-color:#F8F9FD;
   height: 200px;
